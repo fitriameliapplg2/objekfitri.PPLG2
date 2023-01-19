@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    var beruang = {
+        nama : "haechan",
+        warna: "coklat",
+        jumlah_kaki: 4,
+        mata : {
+            warna_mata : "hitam",
+            warna_pupil: "hitam"
+        },
+         panggilan : function (){
+            return "echan"
+        },
+        tidur : function() {
+            return "goa";
+        }
+
+    }
+     // saya punya beruang
+     // dia namanya : haechan
+     document.write("dia namanya :" + beruang.nama + "<br />");
+     document.write(`dia berwarna : ${beruang.warna} <br />`);
+     document.write("tidurnya :" + beruang.tidur() + "<br />");
+
+ </script>
+</body>
+</html>
